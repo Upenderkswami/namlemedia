@@ -213,7 +213,7 @@ export default function Home() {
               </div>
             </R>
             <R d={0.08}>
-              <h1 style={{ fontFamily: hd, fontSize: "clamp(32px, 4.5vw, 52px)", fontWeight: 800, color: TX, lineHeight: 1.06, margin: "0 0 8px", letterSpacing: -1.5 }}>The intelligence layer for</h1>
+              <h1 style={{ fontFamily: hd, fontSize: "clamp(32px, 4.5vw, 52px)", fontWeight: 800, color: TX, lineHeight: 1.06, margin: "0 0 8px", letterSpacing: -1.5 }}>B2B Recruitment Intelligence for</h1>
               <div style={{ fontFamily: hd, fontSize: "clamp(32px, 4.5vw, 52px)", fontWeight: 800, lineHeight: 1.06, marginBottom: 22, letterSpacing: -1.5, minHeight: "1.3em" }}>
                 <Typewriter words={["funded startups", "recruitment agencies", "AI companies", "fintech scale-ups", "SaaS growth teams"]} />
               </div>
@@ -394,6 +394,38 @@ export default function Home() {
               </div>
             </R>
           ))}
+        </div>
+      </section>
+
+      {/* ── LATEST INSIGHTS ── */}
+      <section style={{ padding: "100px 28px", background: S1 }}>
+        <div style={{ maxWidth: 1120, margin: "0 auto" }}>
+          <R><div style={{ fontFamily: bd, fontSize: 11, fontWeight: 700, letterSpacing: 3, textTransform: "uppercase", color: V, marginBottom: 14 }}>Latest Insights</div></R>
+          <R d={0.04}><h2 style={{ fontFamily: hd, fontSize: "clamp(26px, 3.6vw, 38px)", fontWeight: 800, color: TX, lineHeight: 1.1, margin: "0 0 44px", letterSpacing: -0.8 }}>From the blog</h2></R>
+          <R d={0.08}>
+            <a href="/blog/hiring-signals" style={{ textDecoration: "none", display: "block" }}>
+              <div style={{ padding: 32, border: `1px solid ${BD}`, borderRadius: 14, background: "rgba(255,255,255,.02)", transition: "all 0.3s" }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = BDL; e.currentTarget.style.background = "rgba(255,255,255,.03)"; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = BD; e.currentTarget.style.background = "rgba(255,255,255,.02)"; }}>
+                <div style={{ display: "flex", gap: 12, alignItems: "center", marginBottom: 12 }}>
+                  <span style={{ fontFamily: bd, fontSize: 11, fontWeight: 600, color: V, letterSpacing: 1, textTransform: "uppercase" }}>Recruitment Intelligence</span>
+                  <span style={{ fontFamily: bd, fontSize: 11, color: T3 }}>·</span>
+                  <span style={{ fontFamily: bd, fontSize: 11, color: T3 }}>March 21, 2026</span>
+                  <span style={{ fontFamily: bd, fontSize: 11, color: T3 }}>·</span>
+                  <span style={{ fontFamily: bd, fontSize: 11, color: T3 }}>8 min read</span>
+                </div>
+                <div style={{ fontFamily: hd, fontSize: 22, fontWeight: 700, color: TX, lineHeight: 1.2, marginBottom: 8 }}>What Are Hiring Signals in Recruitment?</div>
+                <p style={{ fontFamily: bd, fontSize: 14, color: T2, lineHeight: 1.6, margin: 0 }}>How to detect companies about to hire 2–4 weeks before jobs go public — using funding events, leadership changes, and posting velocity.</p>
+              </div>
+            </a>
+          </R>
+          <R d={0.12}>
+            <a href="/blog" style={{ fontFamily: bd, fontSize: 13, color: VL, textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 6, marginTop: 20, transition: "color 0.2s" }}
+              onMouseEnter={e => e.target.style.color = "#fff"}
+              onMouseLeave={e => e.target.style.color = VL}>
+              View all insights <span>→</span>
+            </a>
+          </R>
         </div>
       </section>
 

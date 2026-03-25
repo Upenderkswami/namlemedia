@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 const schema = [
-  {"@context":"https://schema.org","@type":"Article",headline:"What Are Hiring Signals in Recruitment?",datePublished:"2026-03-21",dateModified:"2026-03-21",author:{"@type":"Organization",name:"Namle Media",url:"https://namlemedia.com"},publisher:{"@type":"Organization",name:"Namle Media"},mainEntityOfPage:{"@type":"WebPage","@id":"https://namlemedia.com/blog/hiring-signals"}},
+  {"@context":"https://schema.org","@type":"Article",headline:"What Are Hiring Signals in Recruitment?",datePublished:"2026-03-21",dateModified:"2026-03-25",author:{"@type":"Person",name:"Upender Kumar Swami",url:"https://www.linkedin.com/in/upender-kumar-swami-720170350/",jobTitle:"Founder",worksFor:{"@type":"Organization",name:"Namle Media"}},publisher:{"@type":"Organization",name:"Namle Media"},mainEntityOfPage:{"@type":"WebPage","@id":"https://namlemedia.com/blog/hiring-signals"}},
   {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Home",item:"https://namlemedia.com"},{"@type":"ListItem",position:2,name:"Blog",item:"https://namlemedia.com/blog"},{"@type":"ListItem",position:3,name:"Hiring Signals",item:"https://namlemedia.com/blog/hiring-signals"}]},
   {"@context":"https://schema.org","@type":"FAQPage",mainEntity:[
     {"@type":"Question",name:"What are hiring signals?",acceptedAnswer:{"@type":"Answer",text:"Hiring signals are early indicators that a company is about to hire, typically detected 2 to 4 weeks before public job posts appear."}},
@@ -59,7 +59,7 @@ export default function HiringSignalsBlog() {
         <div style={{fontSize:10,fontWeight:600,color:P,letterSpacing:3,textTransform:"uppercase",marginBottom:12}}>Recruitment Intelligence</div>
         <h1 style={{fontSize:"clamp(28px,4vw,42px)",fontWeight:800,color:W,lineHeight:1.1,letterSpacing:-1,marginBottom:16}}>What Are Hiring Signals in Recruitment?</h1>
         <p style={{fontSize:17,color:D,lineHeight:1.7,marginBottom:12}}>Hiring signals are early indicators that a company is about to hire — detected 2 to 4 weeks before public job posts appear. They include funding announcements, C-suite leadership changes, product launches, and patterns in job posting velocity. For recruitment agencies and hiring companies, acting on these signals means reaching the table before anyone else knows there is a seat.</p>
-        <div style={{fontSize:13,color:"rgba(255,255,255,.3)",marginBottom:48}}>Published March 21, 2026 · By Namle Media · 8 min read</div>
+        <div style={{fontSize:13,color:"rgba(255,255,255,.3)",marginBottom:48}}>Published March 21, 2026 · Updated March 25, 2026 · By Upender Kumar Swami · 8 min read</div>
         <div style={{width:"100%",height:1,background:F,marginBottom:48}} />
 
         <div style={body}>

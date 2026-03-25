@@ -455,6 +455,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── SEO CONTENT BLOCK — visible text for crawlers ── */}
+      <section style={{ padding: "80px 28px", background: S1, borderTop: `1px solid ${BD}` }}>
+        <div style={{ maxWidth: 1120, margin: "0 auto" }}>
+          <R>
+            <div style={{ fontFamily: bd, fontSize: 11, fontWeight: 700, letterSpacing: 3, textTransform: "uppercase", color: V, marginBottom: 14 }}>About Namle Media</div>
+            <h2 style={{ fontFamily: hd, fontSize: "clamp(22px, 3vw, 32px)", fontWeight: 800, color: TX, lineHeight: 1.15, margin: "0 0 20px", letterSpacing: -0.5 }}>B2B Recruitment Intelligence — Connecting Funded Tech Companies with Specialist Agencies</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }}>
+              <div>
+                <p style={{ fontFamily: bd, fontSize: 14, color: T2, lineHeight: 1.72, margin: "0 0 16px" }}>
+                  Namle Media is a B2B intelligence operator that detects hiring signals from Series A–C technology companies and makes curated, warm introductions to specialist recruitment agencies. We monitor over 290 signal sources — including funding events, executive leadership changes, product launches, and job posting velocity patterns — to identify companies that are about to hire 2 to 4 weeks before roles go public.
+                </p>
+                <p style={{ fontFamily: bd, fontSize: 14, color: T2, lineHeight: 1.72, margin: 0 }}>
+                  Our routing layer serves four high-demand verticals: AI and Machine Learning, Fintech, ERP (SAP and Dynamics), and SaaS. Each introduction is two-sided — the hiring company gets a specialist recruiter, and the recruitment agency gets a pre-qualified client. Both sides are vetted before any introduction is made.
+                </p>
+              </div>
+              <div>
+                <p style={{ fontFamily: bd, fontSize: 14, color: T2, lineHeight: 1.72, margin: "0 0 16px" }}>
+                  Unlike recruiter marketplaces that broadcast roles to dozens of agencies, or job boards where every recruiter competes for the same listing, Namle Media curates one introduction — the right agency for the vertical, stage, and hiring urgency. This signal-based approach means recruitment agencies reach decision-makers before 30 other agencies see the same opportunity.
+                </p>
+                <p style={{ fontFamily: bd, fontSize: 14, color: T2, lineHeight: 1.72, margin: 0 }}>
+                  Trusted across over $1 billion in routed B2B transactions, Namle Media works with a small number of vetted partners to maintain signal quality and routing velocity. Companies served include Crawford Thomas Recruiting, Helpcare AI, Hippocratic AI, and Elate Staffing Solutions.
+                </p>
+              </div>
+            </div>
+          </R>
+        </div>
+      </section>
+
       {/* ── FOOTER ── */}
       <footer style={{ borderTop: `1px solid ${BD}`, padding: "36px 28px" }}>
         <div style={{ maxWidth: 1120, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 14 }}>

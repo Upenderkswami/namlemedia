@@ -10,6 +10,7 @@ export const metadata = {
     url: "https://namlemedia.com",
     siteName: "Namle Media",
     type: "website",
+    images: [{ url: "https://namlemedia.com/og-image.png", width: 1200, height: 630, alt: "Namle Media — B2B Recruitment Intelligence" }],
   },
   twitter: { card: "summary_large_image", title: "B2B Recruitment Intelligence | Namle Media" },
   robots: { index: true, follow: true },
@@ -21,8 +22,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2JWLJCJTD" />
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H2JWLJCJTD');` }} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');` }} />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([
           {"@context":"https://schema.org","@type":"Organization",name:"Namle Media",url:"https://namlemedia.com",description:"Namle Media is a B2B intelligence operator connecting funded technology companies (Series A–C) with specialist recruitment agencies through curated hiring signal data and warm introductions.",knowsAbout:["B2B Recruitment Intelligence","Hiring Signal Detection","Recruitment Agency Matching","AI Talent Acquisition","Fintech Recruitment","SaaS Recruitment","ERP and SAP Recruitment"]},

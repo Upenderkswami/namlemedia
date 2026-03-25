@@ -10,9 +10,9 @@ const posts = [
     slug: "hiring-signals",
     title: "What Are Hiring Signals in Recruitment?",
     desc: "How to detect companies about to hire 2–4 weeks before jobs go public — using funding events, leadership changes, and posting velocity.",
-    date: "March 21, 2026",
+    date: "March 21, 2026 · Updated Mar 25",
     tag: "Recruitment Intelligence",
-    readTime: "8 min read",
+    readTime: "8 min · By Upender Kumar Swami",
   },
 ];
 

@@ -429,8 +429,8 @@ export default function Home() {
           <span style={{ fontFamily: hd, fontSize: 13, color: T3 }}>Namle Media</span>
           <span style={{ fontFamily: bd, fontSize: 11, color: T3 }}>B2B Recruitment Intelligence · AI · Fintech · ERP · SaaS</span>
           <div style={{ display: "flex", gap: 18 }}>
-            <a href="https://www.linkedin.com/company/namlemedia" target="_blank" rel="noopener noreferrer" style={{ fontFamily: bd, fontSize: 12, color: T3, textDecoration: "none", transition: "color 0.2s" }} onMouseEnter={e => e.target.style.color = VL} onMouseLeave={e => e.target.style.color = T3}>LinkedIn</a>
-            <a href="mailto:hello@namlemedia.com" style={{ fontFamily: bd, fontSize: 12, color: T3, textDecoration: "none", transition: "color 0.2s" }} onMouseEnter={e => e.target.style.color = VL} onMouseLeave={e => e.target.style.color = T3}>Contact</a>
+            <a href="https://www.linkedin.com/in/upender-kumar-swami-720170350/" target="_blank" rel="noopener noreferrer" style={{ fontFamily: bd, fontSize: 12, color: T3, textDecoration: "none", transition: "color 0.2s" }} onMouseEnter={e => e.target.style.color = VL} onMouseLeave={e => e.target.style.color = T3}>LinkedIn</a>
+            <a href="mailto:info@namlemedia.com" style={{ fontFamily: bd, fontSize: 12, color: T3, textDecoration: "none", transition: "color 0.2s" }} onMouseEnter={e => e.target.style.color = VL} onMouseLeave={e => e.target.style.color = T3}>Contact</a>
           </div>
         </div>
       </footer>

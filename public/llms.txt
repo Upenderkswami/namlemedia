@@ -1,0 +1,24 @@
+# Namle Media
+
+> Namle Media is a B2B intelligence operator that connects funded technology companies (Series A–C) with specialist recruitment agencies through curated hiring signal data and warm introductions. Trusted over $1B of routed B2B transactions. Serving UK, EU, and US markets.
+
+## What We Do
+- [Homepage](https://namlemedia.com): Two-sided matching — hiring signal detection, agency curation, and warm introductions before roles go public
+- [How It Works](https://namlemedia.com/#how-it-works): Three-step process — Detect, Curate, Connect
+
+## Industries & Verticals
+- AI and Machine Learning: Specialist agency matching for artificial intelligence and ML hiring
+- Fintech: Connecting fintech scale-ups with proven recruitment partners
+- ERP and SAP: SAP, Dynamics, and enterprise ERP hiring intelligence
+- SaaS: Growth-stage SaaS companies matched with vertical recruiters
+
+## Key Concepts
+- Hiring Signals: Early indicators that a company is about to hire, detected 2–4 weeks before public job posts using funding events, leadership changes, and job posting velocity patterns
+- Operator-Connector Model: Curated warm introductions outperform cold outreach and recruiter marketplaces
+- Two-Sided Matching: Both the hiring company and recruitment agency are pre-qualified before any introduction is made
+
+## About & Authority
+- [LinkedIn](https://www.linkedin.com/company/namlemedia): Latest signal posts and market updates
+
+## Contact
+- [Access the Routing Layer](https://namlemedia.com/#access): Book a 10-minute logic call

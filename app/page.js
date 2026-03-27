@@ -180,9 +180,7 @@ export default function Home() {
         <div style={{ maxWidth: 1120, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 68 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             {/* Replace with <Image src="/logo.png" /> when you add your logo */}
-            <div style={{ width: 30, height: 30, borderRadius: 8, background: `linear-gradient(135deg, ${V}, ${VD})`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 0 16px ${MED}` }}>
-              <span style={{ color: "#fff", fontSize: 11, fontWeight: 800, fontFamily: hd, letterSpacing: 1 }}>NM</span>
-            </div>
+           <img src="/logo.png" alt="Namle Media" style={{ width: 30, height: 30, borderRadius: 8 }} />
             <span style={{ fontFamily: hd, fontSize: 16, fontWeight: 700, color: TX }}>Namle Media</span>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 32 }}>

@@ -7,6 +7,14 @@ export const metadata = {
 
 const posts = [
   {
+    slug: "recruitment-pipeline-timing",
+    title: "Why Your Recruitment Pipeline Isn't Broken — Your Timing Is",
+    desc: "Most agencies lose mandates not because they lack talent, but because they enter the market too late. How signal-based timing gives you a 2–4 week advantage.",
+    date: "March 27, 2026",
+    tag: "Recruitment Strategy",
+    readTime: "10 min · By Upender Kumar Swami",
+  },
+  {
     slug: "hiring-signals",
     title: "What Are Hiring Signals in Recruitment?",
     desc: "How to detect companies about to hire 2–4 weeks before jobs go public — using funding events, leadership changes, and posting velocity.",

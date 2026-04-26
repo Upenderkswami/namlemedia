@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.png" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KZN3M87KN" />
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3KZN3M87KN');` }} />
+        <script id="vtag-ai-js" async src="https://r2.leadsy.ai/tag.js" data-pid="1eeinYRTGAy4TLZ9g" data-version="062024"></script>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([
           {"@context":"https://schema.org","@type":"Organization",name:"Namle Media",url:"https://namlemedia.com",description:"Namle Media is a B2B intelligence operator connecting funded technology companies (Series A–C) with specialist recruitment agencies through curated hiring signal data and warm introductions.",knowsAbout:["B2B Recruitment Intelligence","Hiring Signal Detection","Recruitment Agency Matching","AI Talent Acquisition","Fintech Recruitment","SaaS Recruitment","ERP and SAP Recruitment"]},
